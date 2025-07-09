@@ -22,12 +22,12 @@ test('sign-in button is disabled', async ({ page }) => {
 });
 
 test('By using random username and random password, username and password fields are defined', async ({ page }) => {
-    const usernameInput: Locator = page.locator('#username');
-    const passwordInput: Locator = page.locator('#password');
-    await usernameInput.fill(randomUsername);
-    await passwordInput.fill(randomPassword);
-    expect(usernameInput).toBeDefined();
-    expect(passwordInput).toBeDefined();
+    const userName: Locator = page.locator('#username');
+    const password: Locator = page.locator('#password');
+    await userName.fill(randomUsername);
+    await password.fill(randomPassword);
+    expect(userName).toBeDefined();
+    expect(password).toBeDefined();
 });
 
 
