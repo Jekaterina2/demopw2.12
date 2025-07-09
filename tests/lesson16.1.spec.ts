@@ -30,3 +30,5 @@ test('By using random username and random password, username and password fields
     expect(passwordInput).toBeDefined();
 });
 
+
+
