@@ -1,10 +1,15 @@
-DEMO PW
+DEMO Project
 
 Description
-This project contains Playwright tests for placing an order by filling username and Email fields and clicking on order button
-and Playwright test for signing-in.
+This project contains automated tests written using Playwright.
+
+The tests cover:
+1.placing an order by filling in the username and email fields and clicking the order button;
+2.signing in to the application.
 
 Setup
+Make sure you have Node.js installed.
+
 Install dependencies:
 npm install
 
@@ -18,6 +23,3 @@ npx playwright test
 Run tests with a specific file:
 npx playwright test tests/lesson16.1.spec.ts
 npx playwright test tests/lesson16.spec.ts
-
-
-
