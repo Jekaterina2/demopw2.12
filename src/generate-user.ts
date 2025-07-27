@@ -5,3 +5,4 @@ const randomPassword: string = faker.internet.password();
 
 console.log('Random Username:', randomUsername);
 console.log('Random Password:', randomPassword);
+
